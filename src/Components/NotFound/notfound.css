@@ -1,0 +1,40 @@
+
+.notfound{
+    width: 100vw;
+    min-height:90vh;
+    background-color:#f8f9fa;
+}
+.notfound .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notfound .container .details{
+    text-align: center;
+    margin-left:10vw;
+}
+.notfound .container h2 {
+     color: var(--main-color);
+     font-weight: bold;
+     font-size:6rem;
+     letter-spacing: 10px;
+
+}
+.notfound .container h3{
+    font-weight:bold;
+    text-transform: capitalize;
+    color: var(--main-color);
+}
+
+.notfound .container .details .btns a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:1.2rem;
+    background-color: var(--orange-color);
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

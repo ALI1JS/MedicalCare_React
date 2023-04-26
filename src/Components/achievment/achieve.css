@@ -1,0 +1,37 @@
+.achiev{
+    width: 100vw;
+    min-height:50vh;
+    background-color:#d2d4f6;
+    padding: 30px 0px;
+}
+
+.achiev .container .advcontainer{
+    width: 100%;
+    margin: auto;
+    gap:10px;
+}
+.achiev .container .advcontainer .adv{
+    background-color:white;
+    border-radius: 10px;
+    padding: 30px 10px;
+    transition: .5s ease-in-out;
+}
+.achiev .container .advcontainer .adv h2{
+    color: var(--orange-color);
+    font-weight: bold;
+    font-size:3rem;
+}
+
+.achiev .container .advcontainer .adv h3{
+    font-weight: bold;
+    color: var(--main-color);
+    text-transform: capitalize;
+}
+.achiev .container .advcontainer .adv:hover{
+    background-color: var(--main-color);
+}
+.achiev .container .advcontainer .adv:hover h2,
+.achiev .container .advcontainer .adv:hover h3,
+.achiev .container .advcontainer .adv:hover p{
+    color: var(--white-color);
+}

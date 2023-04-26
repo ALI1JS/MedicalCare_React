@@ -1,0 +1,157 @@
+.book{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+.book .container{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #f5f5fc;
+    border-radius: 20px;
+    padding: 20px;
+}
+.book .container .form{
+    width:40%;
+    min-height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    position:relative;
+}
+
+.book .container .form h3{
+    text-transform: capitalize;
+    color: var(--main-color);
+    font-weight: bold;
+}
+.book .container .form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.book .container .form form input,.book .container .form form select{
+    width: 100%;
+    border: 1px solid rgb(209, 210, 214);
+    padding: 0px 5px;
+    height:55px;
+    border-radius: 5px;
+    outline: none;
+    text-transform: capitalize;
+    transition: .3s ease-in-out;
+}
+.book .container .form form input:hover,.book .container .form form select:hover{
+    border:1px solid var(--main-color);
+}
+.book .container .form form input.btn{
+    width:50%;
+    background-color: var(--orange-color);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size:1rem;
+}
+
+.book .container .images .tringle{
+    position: absolute;
+    top: 10px;
+    left:-94%;
+    animation:updownanimation 2s infinite alternate ;
+
+}
+.book .container .images .waves{
+    position: absolute;
+    bottom: 10px;
+    left:-98%;
+    animation: lefttorightanimation 2s  infinite alternate ;
+
+}
+@keyframes updownanimation {
+    0%{
+        transform: translateY(-20px);
+     } 
+     
+     100%{
+        transform:translateY(0px) ;
+     }
+
+}
+.book .container .images{
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+.book .container .images img:first-child{
+    width:100%;
+}
+.book .container .images img.womanimage{
+    position: absolute;
+    top:16%;
+    right:0%;
+    width:18vw;
+    transition: .5s ease-in-out;
+    animation: lefttorightanimation 2s infinite alternate;
+}
+.book .container .images .correct,
+.book .container .images .chat,
+.book .container .images .location,
+.book .container .images .setting{
+      position: absolute;
+}
+.book .container .images .chat{
+    right:-10%;
+    animation: updownanimation 2s  infinite alternate ;
+    width:9vw;
+}
+.book .container .images .correct{
+    top: 50px;
+    left: 10%;
+    animation: updownanimation 2s  infinite alternate ;
+    width: 5vw;
+}
+.book .container .images .location{
+    top: 45%;
+    left: 10%;
+    animation: updownanimation 2s  infinite alternate ;
+    width:9vw;
+}
+.book .container .images .setting{
+    top:70%;
+    right:30%;
+    animation: updownanimation 2s  infinite alternate ;
+    width:6vw;
+}
+
+@keyframes lefttorightanimation {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-20px);
+    }
+}
+@media (max-width:720px) {
+    .book .container{
+       flex-direction: column;
+    }  
+    .book .container .form{
+        width: 95%;
+    }
+    .book .container .images{
+        width: 70%;
+    }
+}
+@media (max-width:920px) {
+    .book{
+        min-height: 50vh;
+    }
+}

@@ -1,0 +1,56 @@
+.contactus{
+    width: 100vw;
+    min-height: 130vh;
+    background-color:#f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactus .container .row-custom{
+     padding: 20px 10px;
+     border-radius:10px;
+}
+.contactus .container .row-custom .form-custom form{
+     gap:20px; 
+}
+.contactus .container .row-custom .form-custom form textarea{
+    min-height: 200px;
+    resize: none;
+}
+.contactus .container .row-custom .form-custom form input.btn{
+     background-color: #f17732;
+     border: none;
+     color: white;
+}
+
+.feat{
+    width:100vw;
+    min-height:50vh;
+    background-color:#f8f9fa;
+}
+.feat .container .row-custom{
+    gap:20px;
+}
+.feat .container .row-custom .feat2{
+    min-width:350px;
+    border-radius:10px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.feat .container .row-custom .feat2:first-child{
+    border:1px solid #f3b490;
+}
+.feat .container .row-custom .feat2:nth-child(2){
+    border:1px solid #e39e70;
+}
+.feat .container .row-custom .feat2:nth-child(3){
+    border:1px solid #a7ee99;
+}
+.feat .container .row-custom .feat2 h2{
+     color:#565acf;
+     font-weight: bold;
+}
+

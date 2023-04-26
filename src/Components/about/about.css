@@ -1,0 +1,201 @@
+.about{
+    width: 100vw;
+    min-height: 100vh;
+    background-color:#f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .container{
+    padding: 30px 0px;
+}
+.about .container .myrow .col1 .myrow2 .img1{
+    width:40%;
+    height:250px;
+    border-bottom-left-radius:30%;
+    border-bottom-right-radius:20%;
+    border-top-right-radius:20%;
+}
+.about .container .myrow .col1 .myrow2 .img2{
+    border-bottom-left-radius:20%;
+    border-top-left-radius:20%;
+    border-bottom-right-radius:20%;
+}
+.about .container .myrow .col1 .myrow2 .img3{
+    width:30%;
+    border-top-left-radius:30%;
+    border-bottom-right-radius:20%;
+    border-top-right-radius:20%;
+    margin-left: 50px;
+    margin-top:30px;
+}
+.exper{
+    height:200px;
+    background-color:#e6e7ff;
+    border-radius: 20% 0% 20% 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(20px);
+}
+.exper h2{
+    font-weight: bold;
+    font-size:6.6rem;
+    color:var(--main-color);
+}
+.exper h4{
+    color: #1f2278;
+    font-size: 1.2rem;
+}
+
+.about .container .myrow .col22 .row21{
+    margin-top:50px;
+}
+.about .container .myrow .col22 .row21 h4{
+      text-transform: capitalize;
+      color: var(--orange-color);
+      font-weight: bold;
+}
+.about .container .myrow .col22 .row21 h2{
+     color: var(--main-color);
+     font-weight: bold;
+     font-size:3vw;
+     padding: 10px 0px;
+}
+.about .container .myrow .col22 .row21 .featcol{
+    margin-top: 30px;
+}
+.about .container .myrow .col22 .row21 .featcol .featrow{
+    position: relative;
+}
+.about .container .myrow .col22 .row21 .featcol .featrow .col1,
+.about .container .myrow .col22 .row21 .featcol .featrow .col2,
+.about .container .myrow .col22 .row21 .featcol .featrow .col3,
+.about .container .myrow .col22 .row21 .featcol .featrow .col4{
+     margin-bottom: 5px;
+     display: flex;
+     align-items:center;
+     justify-content:flex-start;
+     gap:10px;
+}
+.about .container .myrow .col22 .row21 .featcol .featrow .col1{
+    border: 1px solid #b2f0fb;
+}
+.about .container .myrow .col22 .row21 .featcol .featrow .col2{
+    border: 1px solid #a4fcc4;
+}
+.about .container .myrow .col22 .row21 .featcol .featrow .col3{
+    border: 1px solid #ffbdbc;
+}
+.about .container .myrow .col22 .row21 .featcol .featrow .col4{
+    border: 1px solid #e2c4ff;
+}
+
+
+.about .container .myrow .col22 .row21 .featcol .col1 img{
+    width:5rem;
+}
+.about .container .myrow .col22 .row21 .featcol .col1::before,
+.about .container .myrow .col22 .row21 .featcol .col2::before,
+.about .container .myrow .col22 .row21 .featcol .col3::before,
+.about .container .myrow .col22 .row21 .featcol .col4::before{
+    content: "";
+    position: absolute;
+    width:95px;
+    height:80px;
+    opacity: .2;
+    padding: 5px;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+.about .container .myrow .col22 .row21 .featcol{
+    color:#1f2278;
+    font-weight:600;
+    font-size: 16;
+}
+
+
+.about .container .myrow .col22 .row21 .featcol .col1::before{
+    background-color: #b2f0fb;
+    top: 0px;
+    left:1.3px;
+}
+.about .container .myrow .col22 .row21 .featcol .col2::before{
+    top: 0px;
+    left:44%;
+    background-color: #a4fcc4;  
+}
+.about .container .myrow .col22 .row21 .featcol .col3::before{
+    left:0%;
+    background-color: #ffbdbc;  
+}
+.about .container .myrow .col22 .row21 .featcol .col4::before{
+    background-color: #e2c4ff; 
+    right:43%; 
+}
+
+.about .container .myrow button{
+    background-color: var(--main-color);
+    border: none;
+    border-radius:8px;
+    text-align: center;
+    font-size:16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 15px;
+    transition: .4s ease-in-out;
+}
+.about .container .myrow button:hover{
+    background-color: #222696;
+}
+.about .container .myrow button a{
+    color: white;
+    text-decoration:none;
+    text-transform: capitalize;
+}
+
+.about .container .myrow .col1,.about .container .myrow .col22{
+    position: relative;
+}
+.about .container .myrow .col1 .square{
+    position: absolute;
+    top:300px;
+    left:-80px;
+    animation: lefttorightanimation 2s infinite alternate;
+}
+.about .container .myrow .col1 .waves{
+    animation: lefttorightanimation 2s infinite alternate;
+}
+.about .container .myrow .col22 .square3{
+    position: absolute;
+    top:0px;
+    right:100px;
+    animation: updownanimation 2s infinite alternate;
+}
+.about .container .myrow .col22 .square2{
+    position: absolute;
+    right:40px;
+    animation: updownanimation 2s infinite alternate;
+}
+
+@keyframes updownanimation {
+    0%{
+        transform: translateY(-20px);
+     } 
+     
+     100%{
+        transform:translateY(0px) ;
+     }
+
+}
+
+@keyframes lefttorightanimation {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(20px);
+    }
+}
+

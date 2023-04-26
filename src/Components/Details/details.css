@@ -1,0 +1,97 @@
+
+:root{
+    --main-color:#565acf;
+    --orange-color:#f17732;
+    --white-color:white;
+  }
+.details{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+.details .container .row .col-right-custom .heading h2,.details .container .row .col-right-custom .heading p{
+    font-weight: bold;
+}
+.details .container .row .col-right-custom .heading h2{
+    color: var(--main-color);
+    font-weight: bold;
+} 
+.details .container .row .col-right-custom .feature .feat-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.details .container .row .col-right-custom .feature .feat-content .feat i{
+    background-color:var(--main-color);
+    color: white;
+    padding:9px 12px;
+    border-radius: 5px;
+    font-weight:bold;
+    font-size:1.3rem;
+}
+.details .container .row .col-right-custom .feature .feat-content .feat p,.details .container .row .item-head h2{
+    color: #565acf;
+}
+.details .container .row .col-right-custom .item-head h2{
+    font-weight: bold;
+}
+.details .container .row .col-right-custom .item-head p{
+    font-weight: bold;
+}
+.item-content{
+    background-color:#f8f9fa;
+    width: 100vw;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details .container .row .col-right-custom .row .item h2
+,.item-content .container .item2 .item h2{
+    background-color: var(--main-color);
+    border-radius: 5px;
+    color:var(--white-color);
+    padding:15px;
+    font-size:1.3rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    transition: .3s ease-in-out;
+}
+.details .container .row .col-right-custom .row .item h2 i
+,.item-content .container .item2 .item h2 i{
+    margin-right: 10px;
+    transition: .5s ease-in-out;
+}
+.details .container .row .col-right-custom .row .item p,
+.item-content .container .item2 .item p{
+    max-height: 0px;
+    overflow: hidden;
+    transition:max-height .5s;
+    background-color: #f8f9fa;
+}
+
+/* .details .container .row .col-right-custom .row .progress .progress-custom h2{
+    color: var(--main-color);
+    font-weight: bold;
+} */
+/* .details .container .row .col-right-custom .row .progress .progress-custom .outer{
+      width: 100%;
+      background-color: white;
+      height: 30px;
+      border-radius: 5px;     
+      position:relative;
+}
+.details .container .row .col-right-custom .progress .progress-custom .inner{
+    width:90%;
+    background-color:var(--main-color);
+    height: 30px;
+    border-radius: 5px;  
+    position: absolute;   
+} */
+
+.details .conatiner .row .d-feat .feat{
+     background-color:var(--main-color);
+     
+}

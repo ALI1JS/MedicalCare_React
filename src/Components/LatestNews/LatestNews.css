@@ -1,0 +1,115 @@
+
+
+.latestnews{
+    width: 100vw;
+    min-height: 100%;
+    background-color:#f8f9fa;
+    padding: 50px 0px;
+}
+.latestnews .container .heading{
+    width: 100%;
+    text-align: center;
+}
+.latestnews .container .heading h4{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: var(--orange-color);
+}
+.latestnews .container .heading h2{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: var(--main-color);
+    padding: 10px 0px;
+}
+.latestnews .container .content{
+   width:100%;
+   gap:20px;
+}
+
+.latestnews .container .content .new{
+    width: 380px;
+    border: 1px solid rgb(229, 232, 235);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.latestnews .container .content .new .new2{
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+    margin-left:2.3px;
+    gap: 20px;
+}
+ .latestnews .container .content .new .new2 img.patient{
+    border-radius:15px !important;
+    width:100%;
+}
+.latestnews .container .content .new .new2 .details{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    min-height:50px;
+}
+.latestnews .container .content .new .new2 .details img{
+    border-radius:50%;
+    width:40px; 
+    height:40px;
+}
+.latestnews .container .content .new .new2 .details{
+    color: var(--orange-color);
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.latestnews .container .content .new .new2 p{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: var(--main-color);
+    font-size:1.3rem;
+}
+.latestnews .container .content .new .new2 button{
+    border:2px solid var(--main-color);
+    border-radius:5px;
+    padding:8px 0px;
+    transition: .5s ease-in-out;
+}
+.latestnews .container .content .new .new2 button a{
+     color: var(--main-color);
+     text-decoration: none;
+     font-weight: bold;
+     text-transform: capitalize;
+} 
+.latestnews .container .content .new .new2 button:hover{
+    background-color: var(--main-color);
+}
+.latestnews .container .content .new .new2 button:hover a{
+      color: var(--white-color);
+}
+.latestnews .container .controller{
+    margin-top: 50px;
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:10px
+}
+.latestnews .container .controller button{
+    background-color: white;
+    border-radius:8px;
+    padding:8px 15px;
+    border: none;
+    color: var(--main-color);
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    transition: .5s ease-in-out;
+}
+.latestnews .container .controller button:nth-child(2){
+    color: white;
+    background-color: var(--main-color);
+}
+.latestnews .container .controller button:hover{
+    color: white;
+    background-color: var(--main-color);  
+}
+

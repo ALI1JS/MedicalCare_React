@@ -1,0 +1,31 @@
+.login{
+    width: 100vw;
+    min-height: 100vh;
+    background-color:#f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.login .container form{
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 0px #fff,-5px 5px 0px #fff;
+    gap: 10px;
+    justify-content: center;
+}
+.login .container form a:nth-child(2){
+    background-color: #f17732;
+    border: none;
+    font-weight: bold;
+}
+.login .container form span#forget{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color:#565acf;
+}
