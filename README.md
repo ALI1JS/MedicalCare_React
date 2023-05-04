@@ -1,18 +1,19 @@
-# Getting Started with Create React App
+# MedicalCare app
+THIS APP used for any clinic to help Patients and Doctors
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Installation
+ to install this app
+ ```
+  1- you must install the Node and  npm ( will installed with node)
+  2- clone this project
+```
 
-## Available Scripts
+# Usage
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  to use this app you must do this steps
+  ```
+  1- execute this command  npm install (to install all the depenceses node_modules)
+  2- execute this command  npm start 
 
 ### `npm test`
 
